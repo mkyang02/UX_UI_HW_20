@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* BELOW IS THE CSS FOR NAVIGATION */ 
+nav {
+    display: flex !important;
+    align-items: center !important;
+    padding: 2% 6% !important;
+}
+
+nav img {
+  width: 50px;
+}
+
+.nav-links ul li {
+    padding: 8px 12px !important;
+}
+
+.nav-links ul li a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 12px;
+}
+
+/*BELOW IS THE HOVER UNDERLINE*/
+.nav-links ul li::after {
+    content: '';
+    width: 0%; /*visibility of the underline red*/
+    height: 2px;
+    background: #fc434a;
+    display: block;
+    margin:auto;
+    transition: 0.5s; /*the hover feature*/
+}
+
+.nav-links ul li:hover::after { /*the hover feature*/
+    width: 100%;
+}
+
+/*BELOW IS Hero image using Cards*/
+.heroText {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-fluid {
+    border: 0 !important;
+}
+
+/*Button*/
+.btn-primary-override {
+    text-decoration: none;
+    color: #000000 !important;
+    background-color: white !important;
+    border-color: black !important;
+    border-radius: 20px !important;
+    position: relative !important;
+    cursor: pointer !important;
+    font-size: 15px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.btn-primary-override:hover {
+    background-color: #fc434a !important;
+    border-color: #fc434a !important;
+    background-image: none !important;
+}
+
+/*SECOND NAVIGATION*/
+
+.second-navbar {
+    width: 100%;
+    text-align: center;
+
+}
+
+.collapse ul li {
+    padding: 8px 12px !important;
+}
+
+.collapse ul li a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 12px;
+}
+
+/*SECTION 1 */
+.section1 {
+    width: 80%;
+    margin:auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+
+
+/*BELOW IS THE HOVER UNDERLINE*/
+.collapse ul li::after {
+    content: '';
+    width: 0%; /*visibility of the underline red*/
+    height: 2px;
+    background: #f7b933;
+    display: block;
+    margin:auto;
+    transition: 0.5s; /*the hover feature*/
+}
+
+.collapse ul li:hover::after { /*the hover feature*/
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*-----FOOTER SECTION------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600px;
+}
+
+.footer img {
+    width: 100px;
+
+}
+.icons .fa-brands {
+    color: #fc434a;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;;
+}
+
+.icons p {
+    text-align: left;
+    margin: 40px;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+}
