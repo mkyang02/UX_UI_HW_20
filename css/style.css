@@ -89,17 +89,6 @@ nav img {
     font-size: 15px;
     padding: 12px 12px;
 }
-
-/*SECTION 1 */
-.section1 {
-    width: 80%;
-    margin:auto;
-    text-align: left;
-    padding-top: 50px;
-}
-
-
-
 /*BELOW IS THE HOVER UNDERLINE*/
 .collapse ul li::after {
     content: '';
@@ -118,8 +107,49 @@ nav img {
 
 
 
+/*SECTION 1 */
+.section1 {
+    width: 70%;
+    margin:auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+/*SECTION 2 */
+.research {
+    width: 70%;
+    margin:auto;
+    text-align: left;
+    padding-top: 50px;
+}
 
 
+
+/*SECTION 3 */
+.section3 {
+    padding-top: 50px;
+}
+
+
+/*SECTION 4 */
+.iteration {
+    width: 70%;
+    margin:auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.card {
+    border: 0;
+}
+
+/*SECTION 5 */
+.section5 {
+    width: 70%;
+    margin:auto;
+    text-align: left;
+    padding-top: 50px;
+}
 
 
 /*-----FOOTER SECTION------*/
